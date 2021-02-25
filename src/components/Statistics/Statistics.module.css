@@ -1,0 +1,34 @@
+.statistics {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.statistics h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.statistics ul {
+  justify-content: center;
+  list-style-type: none;
+  display: flex;
+  padding-left: 0;
+}
+.statisticsItem {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  color: rgb(240, 250, 240);
+  border: 2px solid #2a2a2a;
+}
+.label {
+  font-size: 18px;
+}
+.percentage {
+  font-size: 30px;
+}
